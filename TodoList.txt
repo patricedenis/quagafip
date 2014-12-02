@@ -1,0 +1,22 @@
+- edit a Makefile
+- add cmake support to generate multiplatform compilation
+- generate proper tools with command line arguments and parsing it into specific internal functions
+- generate help and standard doxygen documentation
+
+
+- quaternion module :
+
+  split the module into 
+  - quaternion.h and quaternion.c
+  - quaternionVector.h and quaternionVector.c
+  - quaternionMatrix.h and quaternionMatrix.c
+  - edit quaternion_pp.c file to enable proper tests managment -> target = unit-tests
+
+
+- spatial filtering
+  rename the files "filtrage_sang" into "spatial_filtering" as they also include the saturation color edge detector proposed in :
+  Denis, P., Carre, P., & Fernandez-Maloigne, C., Spatial and spectral quaternionic approaches for colour images, Computer Vision and Image Understanding, 107(1), (2007), 74-87.
+ 
+ - remove chaine module and replace by standard "string" functions from "string.h" for example
+ 
+

@@ -1,0 +1,50 @@
+Brief descriptions of the source files
+
+Macro definitions of TRUE and FALSE:
+  bool.h
+
+Macros definitions of min and max:
+  MinMax.h
+
+Mutual mathematical operations:
+  common.h common.c
+
+Quaternion basic manipulation modules:
+  quaternion.h, quaternion.c, quaternion_pp.c
+
+Sangwine quaternionic image manipulation primitives:
+  Sangwine sympletic decomposition:
+    sangwine.h sangwine.c
+  Sangwine's color edge detector from "S.J. Sangwine, Colour image edge detector based on quaternion convolution, Electronics Letters 34 (10) (1998) 969–971."
+  and also Quaternionic color saturation Edge detector from   "Denis, P., Carre, P., & Fernandez-Maloigne, C., Spatial and spectral quaternionic approaches for colour images, Computer Vision and Image Understanding, 107(1), (2007), 74-87.":
+    filtrage_sang.h filtrage_sang.c
+
+ImageMagick API with internal function definitions:
+  MagickIO.h MagickIO.c
+
+Image and matrices primitives with doubles:
+  matrix_double.h matrix_double.c
+
+Complex numbers and Color image manipulation primitives with complex numbers :
+  complex.h complex.c
+
+Quaternionic frequency operations
+  Discrete quaternion Fourier transforms:
+    fourier_quaternion.h fourier_quaternion_pp.c fourier_quaternion_rapide.c
+  Quaternionic frequency filtering:
+    filtrage_spectral_quaternionique.h filtrage_spectral_quaternionique.c
+
+Color space's conversion primitives:
+  couleur.h couleur.c couleur_pp.c
+
+ Matrix memory management:
+  matrix.h matrix.c
+ 
+ String manipulations:
+  chaine.h chaine.c chaine_pp.c
+ 
+ 
+ 
+ 
+ 
+ 
