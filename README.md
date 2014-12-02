@@ -18,3 +18,4 @@ and also that an effort to translate French to English will also be much appropr
 
 That work will be done in future releases if time is made available.
 
+See content.txt for a brief description on source files.
