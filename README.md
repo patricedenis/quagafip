@@ -3,7 +3,7 @@ quagafip
 
 QUaternions And Geomatric Algebras For Image Processing
 
-This project and all its associated files are licensed and distributed under the GNU GPL v2.
+This project and all its associated files are licensed and distributed under the GNU GPL v2 or any later.
 
 2014-12-01
 The initial commit is a pull from source's code developed during my student's and PhD's years.
